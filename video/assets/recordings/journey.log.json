@@ -1,0 +1,191 @@
+{
+  "version": 1,
+  "url": "http://127.0.0.1:8765/#journey",
+  "width": 1280,
+  "height": 626,
+  "locale": "en-US",
+  "duration": 15.2,
+  "start": 4.374,
+  "end": 15.256,
+  "cursor": {
+    "x": 640,
+    "y": 313
+  },
+  "script": "70a67d3085cc0d6e",
+  "changes": true,
+  "steps": [
+    {
+      "step": 1,
+      "do": "click",
+      "start": 1.593,
+      "selector": "#jprog",
+      "before": true,
+      "box": {
+        "x": 722,
+        "y": 236,
+        "w": 918,
+        "h": 16
+      },
+      "match": {
+        "tag": "input",
+        "text": "Implementation progress",
+        "selector": "#jprog"
+      },
+      "move": {
+        "t0": 1.609,
+        "t1": 2.226,
+        "x0": 640,
+        "y0": 313,
+        "x1": 722,
+        "y1": 236
+      },
+      "click": 2.449,
+      "t": 2.449,
+      "changed": true,
+      "end": 3.248
+    },
+    {
+      "step": 2,
+      "do": "press",
+      "start": 3.25,
+      "key": "Home",
+      "before": true,
+      "t": 3.251,
+      "changed": true,
+      "end": 3.971
+    },
+    {
+      "step": 3,
+      "do": "zoom",
+      "start": 4.374,
+      "selector": "#jbody",
+      "cue": "#ribbon",
+      "align": "top",
+      "box": {
+        "x": 754,
+        "y": 543,
+        "w": 1020,
+        "h": 524
+      },
+      "match": {
+        "tag": "div",
+        "text": "Emergency department 48,000 visits a year TIME PER PATIENT 5h 53m → 5h 53m SH...",
+        "selector": "#jbody"
+      },
+      "t": 4.379,
+      "end": 5.681
+    },
+    {
+      "step": 4,
+      "do": "zoom",
+      "start": 5.683,
+      "cue": "#slider",
+      "t": 5.683,
+      "end": 6.984
+    },
+    {
+      "step": 5,
+      "do": "click",
+      "start": 6.987,
+      "selector": "#jprog",
+      "cue": "#slider",
+      "box": {
+        "x": 722,
+        "y": 236,
+        "w": 918,
+        "h": 16
+      },
+      "match": {
+        "tag": "input",
+        "text": "Implementation progress",
+        "selector": "#jprog"
+      },
+      "click": 7.214,
+      "t": 7.214,
+      "changed": true,
+      "end": 8.005
+    },
+    {
+      "step": 6,
+      "do": "press",
+      "start": 8.007,
+      "key": "End",
+      "cue": "#full",
+      "t": 8.008,
+      "changed": true,
+      "end": 8.737
+    },
+    {
+      "step": 7,
+      "do": "zoom",
+      "start": 8.738,
+      "selector": "#jbody",
+      "cue": "#full",
+      "align": "top",
+      "box": {
+        "x": 754,
+        "y": 543,
+        "w": 1020,
+        "h": 524
+      },
+      "match": {
+        "tag": "div",
+        "text": "Emergency department 48,000 visits a year TIME PER PATIENT 5h 53m → 3h 01m SH...",
+        "selector": "#jbody"
+      },
+      "t": 8.742,
+      "end": 10.043
+    },
+    {
+      "step": 8,
+      "do": "zoom",
+      "start": 10.046,
+      "cue": "#capacity",
+      "t": 10.046,
+      "end": 11.347
+    },
+    {
+      "step": 9,
+      "do": "scroll",
+      "start": 11.349,
+      "selector": "#c-cap",
+      "cue": "#capacity",
+      "t": 11.349,
+      "box": {
+        "x": 754,
+        "y": 409,
+        "w": 986,
+        "h": 280
+      },
+      "match": {
+        "tag": "canvas",
+        "text": "",
+        "selector": "#c-cap"
+      },
+      "until": 12.609,
+      "end": 12.941
+    },
+    {
+      "step": 10,
+      "do": "zoom",
+      "start": 12.944,
+      "selector": ".panel:has(#c-cap)",
+      "cue": "#capacity",
+      "align": "top",
+      "box": {
+        "x": 754,
+        "y": 392,
+        "w": 1020,
+        "h": 349
+      },
+      "match": {
+        "tag": "div",
+        "text": "Emergency arrivals vs clinician capacity by hour Hours where arrivals exceed ...",
+        "selector": "div.s12"
+      },
+      "t": 12.948,
+      "end": 14.25
+    }
+  ],
+  "blur": []
+}

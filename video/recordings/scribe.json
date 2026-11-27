@@ -1,0 +1,14 @@
+{ "url": "http://127.0.0.1:8765/#scribe", "viewport": { "width": 1280, "height": 626 }, "steps": [
+  { "do": "zoom", "selector": "#transcript", "align": "top", "cue": "#transcript" },
+  { "do": "zoom", "cue": "#draft" },
+  { "do": "scroll", "y": 420, "cue": "#draft" },
+  { "do": "click", "selector": "#gen", "cue": "#draft" },
+  { "do": "wait", "selector": "#s-out .soap" },
+  { "do": "zoom", "selector": "#s-out .soap", "cue": "#soap" },
+  { "do": "zoom", "cue": "#codes" },
+  { "do": "scroll", "selector": "#s-out .tablewrap", "cue": "#codes" },
+  { "do": "zoom", "selector": "#s-out .tablewrap", "align": "top-left", "cue": "#codes" },
+  { "do": "zoom", "cue": "#sign" },
+  { "do": "scroll", "selector": "#sign", "cue": "#sign" },
+  { "do": "click", "selector": "#sign", "cue": "#sign" }
+] }

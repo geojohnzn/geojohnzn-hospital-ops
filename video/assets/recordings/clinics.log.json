@@ -1,0 +1,178 @@
+{
+  "version": 1,
+  "url": "http://127.0.0.1:8765/#clinics",
+  "width": 1280,
+  "height": 626,
+  "locale": "en-US",
+  "duration": 14.8,
+  "start": 2.071,
+  "end": 13.287,
+  "cursor": {
+    "x": 640,
+    "y": 313
+  },
+  "script": "cc8180507a9e5f17",
+  "changes": true,
+  "steps": [
+    {
+      "step": 1,
+      "do": "zoom",
+      "start": 2.071,
+      "selector": "#ctiles",
+      "cue": "#clinic",
+      "box": {
+        "x": 754,
+        "y": 195,
+        "w": 1020,
+        "h": 113
+      },
+      "match": {
+        "tag": "div",
+        "text": "WAITING TO BE SEEN 4 checked in IN CONSULTATION 8 now COMPLETED 104 seen STIL...",
+        "selector": "#ctiles"
+      },
+      "t": 2.081,
+      "end": 3.381
+    },
+    {
+      "step": 2,
+      "do": "zoom",
+      "start": 3.384,
+      "cue": "#beds",
+      "t": 3.384,
+      "end": 4.686
+    },
+    {
+      "step": 3,
+      "do": "click",
+      "start": 4.688,
+      "text": "Bed board",
+      "cue": "#beds",
+      "box": {
+        "x": 114,
+        "y": 249,
+        "w": 195,
+        "h": 35
+      },
+      "match": {
+        "tag": "a",
+        "text": "Bed board",
+        "selector": "a[href=\"#beds\"]"
+      },
+      "move": {
+        "t0": 4.726,
+        "t1": 5.333,
+        "x0": 640,
+        "y0": 313,
+        "x1": 114,
+        "y1": 249
+      },
+      "click": 5.56,
+      "t": 5.56,
+      "changed": true,
+      "end": 6.346
+    },
+    {
+      "step": 4,
+      "do": "zoom",
+      "start": 6.348,
+      "selector": "#wards > .panel",
+      "cue": "#beds",
+      "align": "top",
+      "box": {
+        "x": 409,
+        "y": 484,
+        "w": 331,
+        "h": 399
+      },
+      "match": {
+        "tag": "div",
+        "text": "Medical Ward 23 / 24 01 AAA · d8 02 RAD · d8 03 JS · d5 04 SN · d8 05 HH · d3...",
+        "selector": "#wards > div:nth-of-type(1)"
+      },
+      "t": 6.353,
+      "end": 7.654
+    },
+    {
+      "step": 5,
+      "do": "click",
+      "start": 7.656,
+      "selector": "#wards .bed.dc",
+      "cue": "#left",
+      "box": {
+        "x": 296,
+        "y": 362,
+        "w": 70,
+        "h": 50
+      },
+      "match": {
+        "tag": "button",
+        "text": "01 AAA · d8",
+        "selector": "div:nth-of-type(1) > div > button:nth-of-type(1)"
+      },
+      "move": {
+        "t0": 7.661,
+        "t1": 8.276,
+        "x0": 114,
+        "y0": 249,
+        "x1": 296,
+        "y1": 362
+      },
+      "click": 8.499,
+      "t": 8.499,
+      "changed": true,
+      "end": 9.302
+    },
+    {
+      "step": 6,
+      "do": "click",
+      "start": 9.303,
+      "text": "Patient has left",
+      "cue": "#left",
+      "box": {
+        "x": 649,
+        "y": 387,
+        "w": 125,
+        "h": 37
+      },
+      "match": {
+        "tag": "button",
+        "text": "Patient has left",
+        "selector": "div:nth-of-type(2) > button:nth-of-type(2)"
+      },
+      "move": {
+        "t0": 9.316,
+        "t1": 9.937,
+        "x0": 296,
+        "y0": 362,
+        "x1": 649,
+        "y1": 387
+      },
+      "click": 10.16,
+      "t": 10.16,
+      "changed": true,
+      "end": 10.974
+    },
+    {
+      "step": 7,
+      "do": "zoom",
+      "start": 10.976,
+      "selector": "#btiles",
+      "cue": "#clean",
+      "box": {
+        "x": 754,
+        "y": 174,
+        "w": 1020,
+        "h": 113
+      },
+      "match": {
+        "tag": "div",
+        "text": "OCCUPIED 69 of 86 in service DISCHARGE EXPECTED 9 today BEING CLEANED 5 ready...",
+        "selector": "#btiles"
+      },
+      "t": 10.981,
+      "end": 12.282
+    }
+  ],
+  "blur": []
+}

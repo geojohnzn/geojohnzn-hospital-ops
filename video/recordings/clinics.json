@@ -1,0 +1,9 @@
+{ "url": "http://127.0.0.1:8765/#clinics", "viewport": { "width": 1280, "height": 626 }, "steps": [
+  { "do": "zoom", "selector": "#ctiles", "cue": "#clinic" },
+  { "do": "zoom", "cue": "#beds" },
+  { "do": "click", "text": "Bed board", "cue": "#beds" },
+  { "do": "zoom", "selector": "#wards > .panel", "align": "top", "cue": "#beds" },
+  { "do": "click", "selector": "#wards .bed.dc", "cue": "#left" },
+  { "do": "click", "text": "Patient has left", "cue": "#left" },
+  { "do": "zoom", "selector": "#btiles", "cue": "#clean" }
+] }

@@ -1,0 +1,24 @@
+{
+  "title": "Hospital Ops Demo Suite",
+  "theme": "clean",
+  "size": "16:9",
+  "voice": "af_heart",
+  "music": {
+    "volume": 0.35
+  },
+  "captions": "auto",
+  "watermark": false,
+  "defaults": "0.6",
+  "brand": {
+    "accent": "#0A7570"
+  },
+  "heard": {
+    "theatre": [
+      "theater"
+    ],
+    "Care": [
+      "Cara"
+    ]
+  },
+  "cover": "scribe@14"
+}
