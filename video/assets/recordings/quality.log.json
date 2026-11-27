@@ -1,0 +1,160 @@
+{
+  "version": 1,
+  "url": "http://127.0.0.1:8765/#quality",
+  "width": 1280,
+  "height": 626,
+  "locale": "en-US",
+  "duration": 14.32,
+  "start": 2.089,
+  "end": 14.388,
+  "cursor": {
+    "x": 640,
+    "y": 313
+  },
+  "script": "a1a321f3e8d0c900",
+  "changes": true,
+  "steps": [
+    {
+      "step": 1,
+      "do": "scroll",
+      "start": 2.089,
+      "selector": "#qresults .checks",
+      "cue": "#checks",
+      "t": 2.089,
+      "box": {
+        "x": 754,
+        "y": 313,
+        "w": 986,
+        "h": 21
+      },
+      "match": {
+        "tag": "div",
+        "text": "2,746 rows read 2,679 rows used 67 duplicates removed 10 unreadable or imposs...",
+        "selector": "div.checks"
+      },
+      "until": 2.52,
+      "end": 2.846
+    },
+    {
+      "step": 2,
+      "do": "zoom",
+      "start": 2.849,
+      "selector": "#qresults .checks",
+      "cue": "#checks",
+      "align": "left",
+      "box": {
+        "x": 754,
+        "y": 313,
+        "w": 986,
+        "h": 21
+      },
+      "match": {
+        "tag": "div",
+        "text": "2,746 rows read 2,679 rows used 67 duplicates removed 10 unreadable or imposs...",
+        "selector": "div.checks"
+      },
+      "t": 2.853,
+      "end": 4.155
+    },
+    {
+      "step": 3,
+      "do": "zoom",
+      "start": 4.158,
+      "cue": "#table",
+      "t": 4.158,
+      "end": 5.459
+    },
+    {
+      "step": 4,
+      "do": "scroll",
+      "start": 5.462,
+      "selector": "#qresults .tablewrap",
+      "cue": "#table",
+      "t": 5.462,
+      "box": {
+        "x": 754,
+        "y": 313,
+        "w": 986,
+        "h": 1523
+      },
+      "match": {
+        "tag": "div",
+        "text": "CODE INDICATOR 2025 Q4 2026 Q1 2026 Q2 2026 Q3 TREND REFERENCE LATEST QUARTER...",
+        "selector": "div > div:nth-of-type(2) > div"
+      },
+      "until": 6.999,
+      "end": 7.325
+    },
+    {
+      "step": 5,
+      "do": "zoom",
+      "start": 7.327,
+      "selector": "#qresults .tablewrap",
+      "cue": "#table",
+      "align": "top-left",
+      "box": {
+        "x": 754,
+        "y": 313,
+        "w": 986,
+        "h": 1523
+      },
+      "match": {
+        "tag": "div",
+        "text": "CODE INDICATOR 2025 Q4 2026 Q1 2026 Q2 2026 Q3 TREND REFERENCE LATEST QUARTER...",
+        "selector": "div > div:nth-of-type(2) > div"
+      },
+      "t": 7.331,
+      "end": 8.631
+    },
+    {
+      "step": 6,
+      "do": "zoom",
+      "start": 8.634,
+      "cue": "#chart",
+      "t": 8.634,
+      "end": 9.936
+    },
+    {
+      "step": 7,
+      "do": "scroll",
+      "start": 9.939,
+      "selector": "#c-qm",
+      "cue": "#chart",
+      "t": 9.939,
+      "box": {
+        "x": 754,
+        "y": 313,
+        "w": 986,
+        "h": 280
+      },
+      "match": {
+        "tag": "canvas",
+        "text": "",
+        "selector": "#c-qm"
+      },
+      "until": 11.748,
+      "end": 12.075
+    },
+    {
+      "step": 8,
+      "do": "zoom",
+      "start": 12.077,
+      "selector": ".panel:has(#c-qm)",
+      "cue": "#chart",
+      "box": {
+        "x": 754,
+        "y": 304,
+        "w": 1020,
+        "h": 393
+      },
+      "match": {
+        "tag": "div",
+        "text": "Monthly rate and expected range QI017 CLABSI, adult inpatients QI016 CAUTI, i...",
+        "selector": "div > div:nth-of-type(3)"
+      },
+      "t": 12.081,
+      "end": 13.382
+    }
+  ],
+  "blur": []
+}

@@ -1,0 +1,89 @@
+{
+  "version": 1,
+  "url": "http://127.0.0.1:8765/#forecast",
+  "width": 1280,
+  "height": 626,
+  "locale": "en-US",
+  "duration": 8,
+  "start": 2.005,
+  "end": 8.041,
+  "cursor": {
+    "x": 640,
+    "y": 313
+  },
+  "script": "3f2f2b2e90d38fcc",
+  "changes": true,
+  "steps": [
+    {
+      "step": 1,
+      "do": "zoom",
+      "start": 2.005,
+      "selector": ".panel:has(#c-fc)",
+      "cue": "#fc",
+      "box": {
+        "x": 582,
+        "y": 318,
+        "w": 675,
+        "h": 360
+      },
+      "match": {
+        "tag": "div",
+        "text": "Emergency arrivals: last 4 weeks and next 14 days Shaded band: 80% range",
+        "selector": "div.panel.s8"
+      },
+      "t": 2.013,
+      "end": 3.314
+    },
+    {
+      "step": 2,
+      "do": "zoom",
+      "start": 3.316,
+      "cue": "#bedsf",
+      "t": 3.316,
+      "end": 4.618
+    },
+    {
+      "step": 3,
+      "do": "scroll",
+      "start": 4.62,
+      "selector": "#c-beds",
+      "cue": "#bedsf",
+      "t": 4.62,
+      "box": {
+        "x": 920,
+        "y": 409,
+        "w": 652,
+        "h": 280
+      },
+      "match": {
+        "tag": "canvas",
+        "text": "",
+        "selector": "#c-beds"
+      },
+      "until": 5.397,
+      "end": 5.727
+    },
+    {
+      "step": 4,
+      "do": "zoom",
+      "start": 5.731,
+      "selector": ".panel:has(#c-beds)",
+      "cue": "#bedsf",
+      "align": "top",
+      "box": {
+        "x": 754,
+        "y": 391,
+        "w": 1020,
+        "h": 349
+      },
+      "match": {
+        "tag": "div",
+        "text": "Inpatient bed demand, next 12 months 86 beds in service · pressure line at 90...",
+        "selector": "div.s12"
+      },
+      "t": 5.734,
+      "end": 7.035
+    }
+  ],
+  "blur": []
+}

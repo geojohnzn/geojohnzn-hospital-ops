@@ -1,0 +1,236 @@
+{
+  "version": 1,
+  "url": "http://127.0.0.1:8765/#scribe",
+  "width": 1280,
+  "height": 626,
+  "locale": "en-US",
+  "duration": 19.84,
+  "start": 1.938,
+  "end": 18.643,
+  "cursor": {
+    "x": 640,
+    "y": 313
+  },
+  "script": "db9643bd20b4877b",
+  "changes": true,
+  "steps": [
+    {
+      "step": 1,
+      "do": "zoom",
+      "start": 1.938,
+      "selector": "#transcript",
+      "cue": "#transcript",
+      "align": "top",
+      "box": {
+        "x": 454,
+        "y": 541,
+        "w": 385,
+        "h": 420
+      },
+      "match": {
+        "tag": "textarea",
+        "text": "Consultation transcript",
+        "selector": "#transcript"
+      },
+      "t": 1.946,
+      "end": 3.248
+    },
+    {
+      "step": 2,
+      "do": "zoom",
+      "start": 3.251,
+      "cue": "#draft",
+      "t": 3.251,
+      "end": 4.552
+    },
+    {
+      "step": 3,
+      "do": "scroll",
+      "start": 4.558,
+      "cue": "#draft",
+      "t": 4.558,
+      "until": 5.349,
+      "end": 5.688
+    },
+    {
+      "step": 4,
+      "do": "click",
+      "start": 5.691,
+      "selector": "#gen",
+      "cue": "#draft",
+      "box": {
+        "x": 454,
+        "y": 440,
+        "w": 385,
+        "h": 37
+      },
+      "match": {
+        "tag": "button",
+        "text": "Draft note",
+        "selector": "#gen"
+      },
+      "move": {
+        "t0": 6.56,
+        "t1": 7.169,
+        "x0": 640,
+        "y0": 313,
+        "x1": 454,
+        "y1": 440
+      },
+      "click": 7.392,
+      "t": 7.392,
+      "changed": true,
+      "end": 8.19
+    },
+    {
+      "step": 5,
+      "do": "wait",
+      "start": 8.191,
+      "selector": "#s-out .soap",
+      "t": 8.191,
+      "box": {
+        "x": 971,
+        "y": 77,
+        "w": 553,
+        "h": 311
+      },
+      "match": {
+        "tag": "div",
+        "text": "SUBJECTIVE OBJECTIVE ASSESSMENT PLAN",
+        "selector": "div.soap"
+      },
+      "changed": false,
+      "end": 8.498
+    },
+    {
+      "step": 6,
+      "do": "zoom",
+      "start": 8.499,
+      "selector": "#s-out .soap",
+      "cue": "#soap",
+      "box": {
+        "x": 971,
+        "y": 77,
+        "w": 553,
+        "h": 311
+      },
+      "match": {
+        "tag": "div",
+        "text": "SUBJECTIVE OBJECTIVE ASSESSMENT PLAN",
+        "selector": "div.soap"
+      },
+      "t": 8.502,
+      "end": 9.804
+    },
+    {
+      "step": 7,
+      "do": "zoom",
+      "start": 9.807,
+      "cue": "#codes",
+      "t": 9.807,
+      "end": 11.108
+    },
+    {
+      "step": 8,
+      "do": "scroll",
+      "start": 11.111,
+      "selector": "#s-out .tablewrap",
+      "cue": "#codes",
+      "t": 11.111,
+      "box": {
+        "x": 971,
+        "y": 313,
+        "w": 553,
+        "h": 424
+      },
+      "match": {
+        "tag": "div",
+        "text": "USE CODE DESCRIPTION AND EVIDENCE R07.89 Other chest pain primary “tightness ...",
+        "selector": "#s-out > div:nth-of-type(3)"
+      },
+      "until": 11.538,
+      "end": 11.877
+    },
+    {
+      "step": 9,
+      "do": "zoom",
+      "start": 11.879,
+      "selector": "#s-out .tablewrap",
+      "cue": "#codes",
+      "align": "top-left",
+      "box": {
+        "x": 971,
+        "y": 313,
+        "w": 553,
+        "h": 424
+      },
+      "match": {
+        "tag": "div",
+        "text": "USE CODE DESCRIPTION AND EVIDENCE R07.89 Other chest pain primary “tightness ...",
+        "selector": "#s-out > div:nth-of-type(3)"
+      },
+      "t": 11.883,
+      "end": 13.184
+    },
+    {
+      "step": 10,
+      "do": "zoom",
+      "start": 13.186,
+      "cue": "#sign",
+      "t": 13.186,
+      "end": 14.487
+    },
+    {
+      "step": 11,
+      "do": "scroll",
+      "start": 14.489,
+      "selector": "#sign",
+      "cue": "#sign",
+      "t": 14.489,
+      "box": {
+        "x": 1159,
+        "y": 531,
+        "w": 177,
+        "h": 37
+      },
+      "match": {
+        "tag": "button",
+        "text": "Sign and save to record",
+        "selector": "#sign"
+      },
+      "until": 15.67,
+      "end": 16.008
+    },
+    {
+      "step": 12,
+      "do": "click",
+      "start": 16.011,
+      "selector": "#sign",
+      "cue": "#sign",
+      "box": {
+        "x": 1159,
+        "y": 531,
+        "w": 177,
+        "h": 37
+      },
+      "match": {
+        "tag": "button",
+        "text": "Sign and save to record",
+        "selector": "#sign"
+      },
+      "move": {
+        "t0": 16.017,
+        "t1": 16.626,
+        "x0": 454,
+        "y0": 440,
+        "x1": 1159,
+        "y1": 531
+      },
+      "click": 16.849,
+      "t": 16.849,
+      "changed": true,
+      "end": 17.638
+    }
+  ],
+  "blur": []
+}

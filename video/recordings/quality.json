@@ -1,0 +1,10 @@
+{ "url": "http://127.0.0.1:8765/#quality", "viewport": { "width": 1280, "height": 626 }, "steps": [
+  { "do": "scroll", "selector": "#qresults .checks", "cue": "#checks" },
+  { "do": "zoom", "selector": "#qresults .checks", "align": "left", "cue": "#checks" },
+  { "do": "zoom", "cue": "#table" },
+  { "do": "scroll", "selector": "#qresults .tablewrap", "cue": "#table" },
+  { "do": "zoom", "selector": "#qresults .tablewrap", "align": "top-left", "cue": "#table" },
+  { "do": "zoom", "cue": "#chart" },
+  { "do": "scroll", "selector": "#c-qm", "cue": "#chart" },
+  { "do": "zoom", "selector": ".panel:has(#c-qm)", "cue": "#chart" }
+] }

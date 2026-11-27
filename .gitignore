@@ -1,0 +1,5 @@
+node_modules/
+video/build/
+video/out/
+video/.explainroo/
+.DS_Store

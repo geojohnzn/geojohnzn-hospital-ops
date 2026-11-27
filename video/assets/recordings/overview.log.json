@@ -1,0 +1,109 @@
+{
+  "version": 1,
+  "url": "http://127.0.0.1:8765/#overview",
+  "width": 1280,
+  "height": 626,
+  "locale": "en-US",
+  "duration": 9.36,
+  "start": 2.018,
+  "end": 9.433,
+  "cursor": {
+    "x": 640,
+    "y": 313
+  },
+  "script": "65c93715731e2229",
+  "changes": true,
+  "steps": [
+    {
+      "step": 1,
+      "do": "zoom",
+      "start": 2.018,
+      "selector": ".tiles",
+      "cue": "#tiles",
+      "align": "top",
+      "box": {
+        "x": 754,
+        "y": 236,
+        "w": 1020,
+        "h": 238
+      },
+      "match": {
+        "tag": "div",
+        "text": "INPATIENT CENSUS 70 / 86 beds 81% occupied EMERGENCY NOW 23 patients 9 waitin...",
+        "selector": "div.tiles"
+      },
+      "t": 2.026,
+      "end": 3.326
+    },
+    {
+      "step": 2,
+      "do": "zoom",
+      "start": 3.344,
+      "selector": ".panel:has(#c-occ)",
+      "cue": "#units",
+      "box": {
+        "x": 1056,
+        "y": 523,
+        "w": 417,
+        "h": 299
+      },
+      "match": {
+        "tag": "div",
+        "text": "Bed occupancy by unit %",
+        "selector": "div:nth-of-type(3) > div:nth-of-type(2)"
+      },
+      "t": 3.349,
+      "end": 4.649
+    },
+    {
+      "step": 3,
+      "do": "zoom",
+      "start": 4.652,
+      "cue": "#alerts",
+      "t": 4.652,
+      "end": 5.954
+    },
+    {
+      "step": 4,
+      "do": "scroll",
+      "start": 5.956,
+      "text": "Needs attention",
+      "cue": "#alerts",
+      "t": 5.956,
+      "box": {
+        "x": 1002,
+        "y": 313,
+        "w": 103,
+        "h": 23
+      },
+      "match": {
+        "tag": "h3",
+        "text": "Needs attention",
+        "selector": "div:nth-of-type(4) > header > h3"
+      },
+      "until": 6.761,
+      "end": 7.12
+    },
+    {
+      "step": 5,
+      "do": "zoom",
+      "start": 7.122,
+      "selector": ".alerts",
+      "cue": "#alerts",
+      "box": {
+        "x": 1099,
+        "y": 457,
+        "w": 297,
+        "h": 242
+      },
+      "match": {
+        "tag": "ul",
+        "text": "Intensive Care at 9 of 10 beds. Step-down candidates: 2. 3 emergency patients...",
+        "selector": "ul.alerts"
+      },
+      "t": 7.126,
+      "end": 8.426
+    }
+  ],
+  "blur": []
+}
